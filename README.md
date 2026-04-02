@@ -22,7 +22,7 @@ Intelligent Forest Fire Detection System
 * **Infrastructure:** Trained on `Google Colab` with `Google Drive` for persistence.
 
 ---
-## 📈 Model Performance
+## Model Performance
  
 | Model | Epochs | mAP50 | mAP50-95 | Precision | Recall |
 |---|---|---|---|---|---|
@@ -90,3 +90,6 @@ streamlit run app.py
 Model Weights: Make sure to place the best.pt file (YOLOv8 Large recommended) in the root directory (the katon folder) before running the app.
 
 Camera Sources: In the Streamlit dashboard, you can use 0 for your built-in webcam or provide a URL for external IP cameras.
+## team for i-ace
+khammar mohamed amine 
+kenzari tiziri
