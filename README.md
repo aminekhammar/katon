@@ -31,7 +31,7 @@ Intelligent Forest Fire Detection System
 ---
 
 ##  Cloud Training Workflow (Google Colab)
-After placing the dataset in Google Drive, switch to Google Colab for the GPU and follow the steps
+After placing the dataset in Google Drive, switch Google Colab to the GPU and follow the steps
 
 ```python
 # 1. Install Ultralytics
