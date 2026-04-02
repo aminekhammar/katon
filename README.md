@@ -22,6 +22,16 @@ Intelligent Forest Fire Detection System
 * **Infrastructure:** Trained on `Google Colab` with `Google Drive` for persistence.
 
 ---
+## 📈 Model Performance
+ 
+| Model | Epochs | mAP50 | mAP50-95 | Precision | Recall |
+|---|---|---|---|---|---|
+| YOLOv8 Large | 85 | ~0.52 | ~0.26 | ~0.58 | ~0.55 |
+| YOLOv8 Nano | 120 | ~0.48 | ~0.24 | ~0.54 | ~0.50 |
+ 
+The Large model achieves better accuracy; the Nano model is faster and better suited for real-time edge deployment.
+ 
+---
 
 ##  External Resources
 - **Model Weights (best.pt):** [Download from Google Drive](https://drive.google.com/drive/folders/1qr_Ry6aleuUPK7E87-3g91JV7Tx5ENpS?usp=sharing)
@@ -56,5 +66,18 @@ drive.mount('/content/drive')
   name=fire_detection
 ```
 ---
+##  Prerequisites
+Ensure you have **Python 3.8** or higher installed on your system.
 
+---
 
+##  Installation & Setup
+Install all required libraries using the requirements.txt file we generated:
+```bash
+pip install -r requirements.txt
+```
+After selecting Weights, it is recommended to use the best.pt large option. 
+Open your terminal and run:
+```bash
+streamlit run app.py
+```
