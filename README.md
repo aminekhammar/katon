@@ -69,8 +69,12 @@ drive.mount('/content/drive')
 ##  Prerequisites
 Ensure you have **Python 3.8** or higher installed on your system.
 
----
-
+ ## Clone the Repository
+Open your terminal and run the following commands to get the source code:
+```bash
+git clone https://github.com/aminekhammar/katon.git
+cd katon
+```
 ##  Installation & Setup
 Install all required libraries using the requirements.txt file we generated:
 ```bash
@@ -81,3 +85,8 @@ Open your terminal and run:
 ```bash
 streamlit run app.py
 ```
+---
+## Important Notes
+Model Weights: Make sure to place the best.pt file (YOLOv8 Large recommended) in the root directory (the katon folder) before running the app.
+
+Camera Sources: In the Streamlit dashboard, you can use 0 for your built-in webcam or provide a URL for external IP cameras.
